@@ -1,22 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background-color: #f5e6ff;
     text-align: center;
+}
+
+nav {
+    background: #6a0dad;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #d8b6ff;
 }
 
 .container {
     width: 80%;
     margin: auto;
     padding: 20px;
+    margin-top: 60px;
 }
 
 .profile {
     background: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(106, 13, 173, 0.2);
 }
 
 .profile img {
@@ -28,11 +63,11 @@ body {
 
 .profile h1 {
     margin-top: 10px;
-    color: #333;
+    color: #6a0dad;
 }
 
 .profile p {
-    color: #666;
+    color: #5c3b82;
 }
 
 .tech {
@@ -42,4 +77,78 @@ body {
 .tech img {
     width: 50px;
     margin: 10px;
+}
+
+section {
+    padding: 80px 20px;
+    margin-top: 50px;
+    background: #6a0dad;
+    color: white;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(106, 13, 173, 0.3);
+}
+
+#curriculo {
+    background: #6a0dad;
+    padding: 80px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(106, 13, 173, 0.3);
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+    color: white;
+}
+
+#curriculo h2, 
+#curriculo h3, 
+#curriculo h4 {
+    color: white;
+}
+
+#curriculo p, 
+#curriculo ul {
+    color: #f5e6ff;
+    line-height: 1.6;
+    text-align: left;
+}
+
+#curriculo ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+#curriculo a {
+    color: #d8b6ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#curriculo a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 50px;
+    background: #6a0dad;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(106, 13, 173, 0.3);
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
 }
