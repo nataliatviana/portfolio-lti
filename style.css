@@ -1,8 +1,45 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
     text-align: center;
-    background-color: #f4f4f4;
 }
-h1 {
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.profile {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile h1 {
+    margin-top: 10px;
     color: #333;
+}
+
+.profile p {
+    color: #666;
+}
+
+.tech {
+    margin-top: 20px;
+}
+
+.tech img {
+    width: 50px;
+    margin: 10px;
 }
